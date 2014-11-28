@@ -87,7 +87,7 @@ system("color f1");
 	
 	kolona_starter=kolona0;
 	
- print_kolones(kolona0,kolona1,kolona2,boxes);
+ 	print_kolones(kolona0,kolona1,kolona2,boxes);
 	cout<<endl;
 
 	while (kolona_starter!=kolona2)
@@ -95,7 +95,7 @@ system("color f1");
 		int apo,se;
 		while (true)
 		{
-			cout<<" APO STULH : ";
+			cout<<" FROM COLUMN : ";
 			cin>>apo;
 			cout<<endl;
 			if ((apo>0)&&(apo<4))
@@ -109,7 +109,7 @@ system("color f1");
 		
 		while (true)
 		{
-			cout<<" SE STULH : ";
+			cout<<" TO COLUMN : ";
 			cin>>se;
 			cout<<endl;
 			if ((se>0)&&(se<4))
@@ -140,7 +140,7 @@ system("color f1");
 			{
 				flagSTART=1;
 			}else{
-				cout<<" @@ ERROR . . . TO PERIEXOMENO EINAI MEGALUTERO @@"<<endl<<endl;
+				cout<<" @@ ERROR . . . THE CONTAINER IS SMALLER @@"<<endl<<endl;
 				system("pause");
 			}
 		}
@@ -150,7 +150,7 @@ system("color f1");
 			{
 				flagSTART=1;
 			}else{
-				cout<<" @@ ERROR . . . TO PERIEXOMENO EINAI MEGALUTERO @@"<<endl<<endl;
+				cout<<" @@ ERROR . . . THE CONTAINER IS SMALLER @@"<<endl<<endl;
 				system("pause");
 			}
 		}
@@ -160,7 +160,7 @@ system("color f1");
 			{
 				flagSTART=1;
 			}else{
-				cout<<" @@ ERROR . . . TO PERIEXOMENO EINAI MEGALUTERO @@"<<endl<<endl;
+				cout<<" @@ ERROR . . . THE CONTAINER IS SMALLER @@"<<endl<<endl;
 				system("pause");
 			}
 		}
@@ -170,7 +170,7 @@ system("color f1");
 			{
 				flagSTART=1;
 			}else{
-				cout<<" @@ ERROR . . . TO PERIEXOMENO EINAI MEGALUTERO @@"<<endl<<endl;
+				cout<<" @@ ERROR . . . THE CONTAINER IS SMALLER @@"<<endl<<endl;
 				system("pause");
 			}
 		}
@@ -179,6 +179,9 @@ system("color f1");
 			if (kolona1[kolona1.size()-1]<kolona0[kolona0.size()-1])
 			{
 				flagSTART=1;
+			}else{
+				cout<<" @@ ERROR . . . THE CONTAINER IS SMALLER @@"<<endl<<endl;
+				system("pause");
 			}
 		}
 		else if ((!kolona2.empty())&&(apo==3)&&(!kolona1.empty())&&(se==2))
@@ -187,11 +190,11 @@ system("color f1");
 			{
 				flagSTART=1;
 			}else{
-				cout<<" @@ ERROR . . . TO PERIEXOMENO EINAI MEGALUTERO @@"<<endl<<endl;
+				cout<<" @@ ERROR . . . THE CONTAINER IS SMALLER @@"<<endl<<endl;
 				system("pause");
 			}
 		}else{
-            cout<<" @@ ERROR . . . LA8OS STYLH @@"<<endl<<endl;
+            cout<<" @@ ERROR . . . WRONG COLUMN @@"<<endl<<endl;
 			system("pause");
 		}
 		
