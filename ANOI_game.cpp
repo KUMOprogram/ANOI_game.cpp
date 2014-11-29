@@ -51,7 +51,7 @@ system("color f1");
 	cout<<"*******************************************************************************"<<endl;
 	cout<<"*                                                                             *"<<endl;
 	cout<<"*                                                                             *"<<endl;
-    cout<<"*                                                                             *"<<endl;
+    	cout<<"*                                                                             *"<<endl;
 	cout<<"*                                                         *       *           *"<<endl;
 	cout<<"*         *******        *          *        *****            *               *"<<endl;
 	cout<<"*        *       *       **         *      *       *          *               *"<<endl;
@@ -59,15 +59,15 @@ system("color f1");
 	cout<<"*      *           *     *  *       *     *         *         *               *"<<endl;
 	cout<<"*      *           *     *   *      *     *         *         *               *"<<endl;
 	cout<<"*      *           *     *    *     *     *         *         *               *"<<endl;
-    cout<<"*      *           *     *     *    *     *         *         *               *"<<endl;
+    	cout<<"*      *           *     *     *    *     *         *         *               *"<<endl;
 	cout<<"*      *************     *      *   *     *         *         *               *"<<endl;
 	cout<<"*      *           *     *       *  *     *         *         *               *"<<endl;
 	cout<<"*      *           *     *        * *     *         *         *               *"<<endl;
 	cout<<"*      *           *     *         **      *       *          *               *"<<endl;
 	cout<<"*      *           *     *          *        *****            *               *"<<endl;
-    cout<<"*                                                                             *"<<endl;
+    	cout<<"*                                                                             *"<<endl;
 	cout<<"*                                                                             *"<<endl;
-    cout<<"*                                                                             *"<<endl;
+    	cout<<"*                                                                             *"<<endl;
 	cout<<"*                                                                             *"<<endl;
 	cout<<"*******************************************************************************"<<endl<<endl;
 	
@@ -194,7 +194,7 @@ system("color f1");
 				system("pause");
 			}
 		}else{
-            cout<<" @@ ERROR . . . WRONG COLUMN @@"<<endl<<endl;
+            		cout<<" @@ ERROR . . . WRONG COLUMN @@"<<endl<<endl;
 			system("pause");
 		}
 		
